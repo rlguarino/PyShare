@@ -32,17 +32,6 @@ def start():
 	print("[Done]")
 	
 
-	"""
-	if platform == 'windows':
-		for root, dirs, files in os.walk(dirName):
-			for dirr in dirs:
-				fileDic[root+dirr+'/'] = str('[D]'+dirr)
-			for file in files:
-				fileDic[root+'/'+file] = str('[F]'+file)
-		print('[Done]')
-		print('Sucessfully loaded the directory: ' + dirName)
-	"""	
-
 	run(IPDatabase, localData)
 	
 	
